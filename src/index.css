@@ -7,17 +7,20 @@
     @apply uppercase text-2xl font-extrabold p-2 text-center font-serif;
   }
   h2 {
-    @apply font-semibold text-lg font-sans;
+    @apply font-semibold text-xl font-sans;
   }
   h3 {
-    @apply font-semibold text-base font-sans;
+    @apply font-semibold text-lg font-sans;
   }
   p {
-    @apply font-sans ;
+    @apply font-sans text-lg;
+  }
+  html {
+    @apply text-[#0b1734]
   }
 }
 
 
 .leaflet-container {
-  @apply w-full h-96;
+  @apply w-full h-96 -z-0 border-2 border-dark_blue rounded-lg;
 }

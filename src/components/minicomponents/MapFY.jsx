@@ -10,7 +10,7 @@ const MapFY = ({}) => {
       center={[-12.065089, -77.046427]}
       zoom={30}
       scrollWheelZoom={false}
-      dragging={false}
+      dragging={true}
       touchZoom={false}
       doubleClickZoom={false}
     >

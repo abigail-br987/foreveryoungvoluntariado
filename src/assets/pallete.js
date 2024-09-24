@@ -1,0 +1,6 @@
+export const green = "#6bbd48"
+export const orange = "#EF6125"
+export const dark_blue = "#0B1734"
+export const seashell = "#FBF4EF"
+export const lightgreen = "#D2EBA8"
+export const lightorange = "#FAD7B4"
