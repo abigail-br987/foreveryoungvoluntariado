@@ -67,19 +67,20 @@ export const InfiniteMovingCards = ({
               <blockquote>
                 <div
                   aria-hidden="true"
-                  className="user-select-none bg-white border-2 border-dark_blue rounded-lg -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
+                  className="user-select-none bg-white border-2
+                   border-dark_blue rounded-lg -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
                 ></div>
-                <span className="relative z-20 text-sm leading-[1.6] font-normal">
+                <p className="relative z-20">
                   "{item.quote}"
-                </span>
+                </p>
                 <div className="relative z-20 mt-6 flex flex-row items-center">
-                  <span className="flex flex-col gap-1">
-                    <span className="text-sm leading-[1.6] font-bold">
+                  <span className="flex flex-col">
+                    <p className="text-lg font-bold">
                       {item.name}
-                    </span>
-                    <span className="text-sm leading-[1.6] font-normal">
-                      {item.title}
-                    </span>
+                    </p>
+                    <p>
+                    {item.title}
+                    </p>
                   </span>
                 </div>
               </blockquote>

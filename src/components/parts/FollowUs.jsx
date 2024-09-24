@@ -3,13 +3,11 @@ import { BsInstagram } from "react-icons/bs"
 
 function FollowUs(){
     return (
-        <div className="my-7"> 
+        <div className="my-7 text-center"> 
         <h1>¡Síguenos!</h1>
-        <Section>
+
           <p>
-          ¡Únete a nuestra comunidad y mantente al tanto de nuestros proyectos! Actualmente estamos
-            trabajando en la Semana de la prevención del embarazo y el
-            proyecto de Cartas de Esperanza!
+          ¡Únete a nuestra comunidad y mantente al tanto de nuestros proyectos! 
           </p>
           <div className="flex items-center flex-row space-x-2 justify-center">
             <BsInstagram className="w-6 h-6" />
@@ -22,7 +20,7 @@ function FollowUs(){
               <p> Instagram: @forever_young_voluntariado </p>
             </a>
           </div>
-        </Section>
+
         </div>
     )
 }

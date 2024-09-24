@@ -8,6 +8,7 @@ function PhotoGrid2() {
           <img
             src={photo10}
             alt="Hospital"
+            loading="lazy"
             className="w-full h-full object-cover object-top rounded-lg"
           />
         </div>
