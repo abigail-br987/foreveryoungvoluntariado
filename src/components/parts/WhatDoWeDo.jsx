@@ -40,9 +40,9 @@ function WhatDoWeDo () {
               key={index}
               className="p-5 rounded-lg border-2 border-dark_blue bg-white"
             >
-              <h3>
+              <h2>
                 {actividad.icono} {actividad.titulo}
-              </h3>
+              </h2>
               <p>{actividad.descripcion}</p>
             </div>
           ))}

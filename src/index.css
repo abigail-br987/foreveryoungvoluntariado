@@ -4,16 +4,22 @@
 
 @layer base {
   h1 {
-    @apply uppercase text-2xl font-extrabold p-2 text-center font-serif;
+    @apply uppercase text-2xl font-extrabold p-2 text-center font-serif text-deep_green;
+    text-shadow:
+    -1.5px -1.5px 0 #000,  
+    1.5px -1.5px 0 #000,
+     -1.5px 1.5px 0 #000,
+     1.3px 1.3px 0 #000;
+    ;
   }
   h2 {
-    @apply font-semibold text-xl font-sans;
+    @apply font-medium  font-mono;
   }
   h3 {
-    @apply font-semibold text-lg font-sans;
+    @apply font-semibold bg-red-400 text-lg font-sans;
   }
   p {
-    @apply font-sans text-lg ;
+    @apply font-sans text-lg leading-6 my-2 ;
   }
   html {
     @apply text-[#0b1734]

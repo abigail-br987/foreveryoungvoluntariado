@@ -12,10 +12,10 @@ function Landing() {
           alt="ForeverYoung Logo"
           className="w-full p-10"
         />
-        <p>
+        <h2>
           ForeverYoung es la organización de voluntariado de Servicio de
           Medicina del Adolescente del Hospital del Niño de Breña, Lima, Perú.
-        </p>
+        </h2>
       </Section>
     </>
   );

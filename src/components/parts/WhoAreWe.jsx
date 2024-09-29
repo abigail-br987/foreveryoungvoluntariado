@@ -72,7 +72,7 @@ function WhoAreWe() {
     <div className="my-7 max-sm:block md:flex md:flex-row max-sm:flex-col max-sm:items-center max-sm:bg-green-300">
 
       <h1 className="md:w-auto md:[writing-mode:vertical-lr] md:rotate-180 text-3xl font-bold md:mr-4 max-sm:mb-4">
-        NOSOTROS
+        ¿QUIÉNES SOMOS?
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
