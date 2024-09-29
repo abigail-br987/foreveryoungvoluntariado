@@ -13,7 +13,7 @@
     @apply font-semibold text-lg font-sans;
   }
   p {
-    @apply font-sans text-lg;
+    @apply font-sans text-lg ;
   }
   html {
     @apply text-[#0b1734]

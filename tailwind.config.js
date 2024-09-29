@@ -20,7 +20,8 @@ export default {
       },
       fontFamily: {
         sans: ['Zain'],
-        serif: ["Gluten"]
+        serif: ["Gluten"],
+        mono: ["Darumadrop One"]
       },
       colors: {
         dark_blue: require('./src/assets/pallete').dark_blue,
