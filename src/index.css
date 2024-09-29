@@ -24,3 +24,8 @@
 .leaflet-container {
   @apply w-full h-96 -z-0 border-2 border-dark_blue rounded-lg;
 }
+
+.vertical {
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+}
