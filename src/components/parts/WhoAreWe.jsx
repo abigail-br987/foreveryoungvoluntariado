@@ -11,17 +11,18 @@ import participante14 from "/participantes-14.png";
 import PersonCard from "../minicomponents/ParticipantCard";
 
 const participants = [
-    {
-      name: "Abigail Briones",
-      title: "Presidenta",
-      description: "Hola! IG: @abigail_br987",
-      imageSrc: participante1,
-    },
+
     {
       name: "Lic. Katty Rojas",
       title: "Supervisora",
       description: "",
       imageSrc: participante14,
+    },
+    {
+      name: "Abigail Briones",
+      title: "Presidenta",
+      description: "Hola! IG: @abigail_br987",
+      imageSrc: participante1,
     },
     {
       name: "Leonardo",
@@ -48,19 +49,19 @@ const participants = [
       imageSrc: participante5,
     },
     {
-      name: "María",
+      name: "María Gonzales",
       title: "Eventos",
       description: "",
       imageSrc: participante6,
     },
     {
-      name: "Belén",
+      name: "Belén Euribe",
       title: "Eventos",
       description: "",
       imageSrc: participante7,
     },
     {
-      name: "Michelle",
+      name: "Mishell Veramendi" ,
       title: "Miembro",
       description: "",
       imageSrc: participante2,
